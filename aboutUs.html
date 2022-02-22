@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300;1,700&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+		integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+	<title>Shop</title>
+	<link rel="stylesheet" href="/main.css">
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">DunkElite</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link " href="./index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="#">About us</a>
+					</li>
+
+					</li>
+
+				</ul>
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"><i
+								class="far fa-user"></i></a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<li><a class="dropdown-item" href="regist.html">registration</a></li>
+							<li><a class="dropdown-item" href="#">authorization</a></li>
+
+						</ul>
+					</li>
+					<a class="nav-link active" aria-current="page" href="#" data-bs-toggle="modal"
+						data-bs-target="#modal--cart"><i class="fas fa-shopping-cart"></i>
+					</a>
+					<div class="modal fade" id="modal--cart" tabindex="-1" aria-labelledby="exampleModalLabel"
+						aria-hidden="true">
+						<div class="modal-dialog modal-xl">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+									<button type="button" class="btn-close" data-bs-dismiss="modal"
+										aria-label="Close"></button>
+								</div>
+								<div class="modal-body">
+									<table class="table">
+
+										<tbody>
+											<tr>
+												<th scope="row">1</th>
+												<td><img src="img/sn/card2.jpg" alt=""></td>
+												<td>Nike kyrie flytrap 4</td>
+												<td>150$</td>
+											</tr>
+											<tr>
+												<th scope="row">1</th>
+												<td><img src="img/sn/card1.jfif" alt=""></td>
+												<td>Under Armour Curry 6 Christmas in the Town White</td>
+												<td>150$</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary"
+										data-bs-dismiss="modal">Close</button>
+									<button type="button" class="btn btn-primary">Save changes</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#"><i class="fas fa-search"></i></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+	<div class="conteiner--fluid">
+		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+					aria-current="true" aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+					aria-label="Slide 2"></button>
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+					aria-label="Slide 3"></button>
+			</div>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="img/sn/trendy-krossovok-2021_16143524381305802667.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="img/sn/kak-vybrat-basketbolnye-krossovki_29-05-19-14-31-57.jpg" class="d-block w-100"
+						alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="img/sn/nike-pg1.jpg" class="d-block w-100" alt="...">
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+				data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+				data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+	</div>
+
+	<section class="main--content" style="margin-top: 4em; background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,114,9,1) 0%, rgba(0,212,255,1) 97%); color: #ffffff; padding: 2em">
+		<div class="conteiner" style="padding: 0 10%;">
+			<div class="text" style="text-align:center; font-size: 1.6em; font-weight: 500">
+				THE DUNK ELITE HAS BEEN OPERATING SINCE 2011.
+				<br>WE OFFICIALLY SELL ORIGINAL SHOES, CLOTHING AND ACCESSORIES FROM POPULAR AND LEADING GLOBAL SPORTS BRANDS - NIKE, AIR JORDAN, ADIDAS, SPALDING, CREP PROTECT, ETC. OUR ASSORTMENT INCLUDES NOT ONLY MEN'S AND WOMEN'S, BUT ALSO CHILDREN'S CLOTHING AND SHOES. WE ARE CONSTANTLY STRIVING TO SUPPLY AN EXCLUSIVE PRODUCT TO MEET THE HIGH LEVEL AND MEET THE NEEDS OF CUSTOMERS.
+				WE DELIVER TO ANY POINT OF RUSSIA BY COURIER SERVICES. WE HAVE OUR OWN DISCOUNT SYSTEM. WE ARE PARTNERS OF TWO OF THE STRONGEST BASKETBALL CLUBS IN RUSSIA - PBK LOKOMOTIV-KUBAN AND BC KHIMKI. WE SUPPORT STREET BASKETBALL AND HAVE BECOME THE ONLY PARTNER STORE OF THE ALL-RUSSIAN RED BULL REIGN TOURNAMENT. WE COOPERATE WITH THE LARGEST BASKETBALL CENTER “BALL TERRITORY” in Moscow. WE HAVE OUR OWN BASKETBALL TEAM PLAYING AT THE AMATEUR LEVEL. RUSSIAN SPORTS STARS ARE AMONG OUR CLIENTS. WE ARE DEVELOPING AND FOLLOWING THE LATEST TRENDS IN THE SNEAKERHEAD CULTURE, KEEPING UP WITH THE TIMES AND WE WANT TO BECOME A KEY PLAYER IN THE BASKETBALL GOODS MARKET IN RUSSIA.
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<section class="footer" style="margin-top: 6em; padding: 0 10%; background: #d0d082; padding: 1em">
+			<div class=" container">
+				<div class=" row">
+					<div class="col">
+						<h4>Информация</h4>
+						<ul class="list-unstyled">
+							<li><a href="#">Main</a></li>
+							<li><a href="#">About us</a></li>
+							<li><a href="#">Payment and delivery</a></li>
+							<li><a href="#">Contacts</a></li>
+						</ul>
+					</div>
+
+					<div class="col">
+						<h4>Working hours</h4>
+						<ul class="list-unstyled">
+							<li>Nur-Sultan, Astana It</li>
+							<li>Mon-Fri: 9:00 - 18:00</li>
+							<li>without interruption</li>
+						</ul>
+					</div>
+
+					<div class="col">
+						<h4>Контакты</h4>
+						<ul class="list-unstyled">
+							<li><a href="tel:5551234567">8-777-777-12-34</a></li>
+							<li><a href="tel:5551234568">8-777-777-56-78</a></li>
+							<li><a href="tel:5551234569">8-777-777-22-22</a></li>
+						</ul>
+					</div>
+
+					<div class="col">
+						<h4>We’re on social media</h4>
+						<div class="footer-icons">
+							<a href="#"><i class="fab fa-facebook-f"></i></a>
+							<a href="#"><i class="fab fa-youtube"></i></a>
+							<a href="#"><i class="fab fa-instagram"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+		crossorigin="anonymous"></script>
+	<script src="./script.js"></script>
+
+</body>
+
+</html>
